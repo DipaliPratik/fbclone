@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LOGIN FORM</title>
+	<style type="text/css">
+		input
+		{
+			width: 95%;
+			margin-top: 10px;
+			height: 20px;
+			background-color:transparent;
+			border: none;
+			border-bottom: 1px solid black;
+			text-align: center;
+			font-weight: bolder;
+		}
+		.b1
+		{
+			background-color: blue;
+			text-align: center;
+			color: white;
+			border: 2px solid darkblue;
+			cursor: pointer;
+			font-size: 10px;
+			font-family: Elephant;
+		}
+		.b1:hover
+		{
+			transform: scale(1.1);
+			transition-duration: 1s;
+		}
+		.b2
+		{
+			background-color: green;
+			text-align: center;
+			color: white;
+			border: 2px solid darkgreen;
+			cursor: pointer;
+			font-size: 10px;
+			font-family: elephant;
+		}
+		.b2:hover
+		{
+			transform: scale(1.1);
+			transition-duration: 1s;
+		}
+		.main
+		{
+			height: 100vh;
+			background-color: lightcyan;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<table  align="center" width="60%" cellpadding="50px">
+			<tr>
+				<td >
+					<h1><b style="color: darkblue;">fecebook</b></h1>
+					<p><b style="color: black;">Connect with friends and the word around you on facebook</b></p>
+				</td>
+
+				<td>
+		<form>
+			<fieldset>
+				<input type="text" name="un" placeholder="username or phn no" class="ip1">
+				<br><br>
+				<input type="password" name="pwd" placeholder="password" style="margin-bottom: 10px;" class="ip1">
+				<br><br>
+				<input type="button" name="login" value="LOGIN" class="b1">
+				<br><br>
+				<span><a href="#">Forgot Password</a> </span>
+				<br><br>
+				<input type="button" name="new" value="Create New Account" class="b2">
+				<br>
+			</fieldset>
+		</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+</body>
+</html>
